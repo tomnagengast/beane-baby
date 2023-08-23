@@ -14,14 +14,15 @@ useSeoMeta({
     <NuxtLink to="/about" class="font-semibold" title="about page"
       >About</NuxtLink
     >
+    <NuxtLink to="/Login" class="font-semibold" title="about page"
+      >Login</NuxtLink
+    >
+    <NuxtLink to="/register" class="font-semibold" title="about page"
+      >Sign Up</NuxtLink
+    >
   </nav>
   <main class="p-4 flex flex-col space-y-6">
     <NuxtPage />
-
-    <div class="text-gray-400 text-center pt-6">
-      Built with <a href="https://nuxt.com" title="Nuxt">Nuxt</a> and
-      <a href="https://turso.tech" title="Turso">Turso</a>.
-    </div>
   </main>
 </template>
 

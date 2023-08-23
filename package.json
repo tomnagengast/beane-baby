@@ -17,9 +17,12 @@
     "cypress:run": "LOCAL_SITE_URL=http://localhost:3000 cypress run"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.8.0",
+    "@nuxthq/ui": "^2.7.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@typescript-eslint/parser": "^5.60.1",
     "cypress": "^12.16.0",
+    "drizzle-kit": "^0.19.13",
     "eslint": "^8.43.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -29,8 +32,12 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@libsql/client": "^0.2.1",
+    "@libsql/client": "^0.3.1",
+    "@lucia-auth/adapter-sqlite": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "@tailwindcss/forms": "^0.5.3"
+    "@tailwindcss/forms": "^0.5.3",
+    "drizzle-orm": "^0.28.2",
+    "lucia": "^2.4.0",
+    "zod": "^3.22.2"
   }
 }
